@@ -82,14 +82,26 @@ const rounder = (float, roundingSetting) => {
         return Math.ceil(float);
     }
     else if (roundingSetting === 'down') {
-      return Math.floor(float);
+        return Math.floor(float);
     }
     else if (roundingSetting === 'honest') {
-      return Math.round(float);
+        return Math.round(float);
     }
 };
 
-const fizzBuzzish = () => {
+const fizzBuzzish = (num) => {
+  if (num % 3 !== 0 && num % 5 !== 0) {
+      console.log(num);
+  } 
+  else if (num % 3 === 0 && num % 5 === 0) {
+      console.log('fizzBuzz!');
+  }    
+  else if (num % 3 === 0) {
+      console.log('fizz');
+  }
+  else if (num % 5 === 0) {
+      console.log('buzz');
+  }
 };
 
 module.exports = {
