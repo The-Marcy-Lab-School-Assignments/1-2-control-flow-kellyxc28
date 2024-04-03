@@ -77,7 +77,16 @@ const funTypes = (jsType) => {
 // funTypes([1, 2, 3]);  // Output: I order you to be indexed.
 // funTypes(NaN);        // Output: Well, now you're just showing off.
 
-const rounder = () => {
+const rounder = (float, roundingSetting) => {
+    if (roundingSetting === 'up') {
+        return Math.ceil(float);
+    }
+    else if (roundingSetting === 'down') {
+      return Math.floor(float);
+    }
+    else if (roundingSetting === 'honest') {
+      return Math.round(float);
+    }
 };
 
 const fizzBuzzish = () => {
