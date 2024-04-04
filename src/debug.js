@@ -1,6 +1,7 @@
 const getRandomIntInRange = (min, max) => {
   if (min > max) throw new Error('min must be less than max');
-  return Math.floor(Math.random() * max);
+  // we want min to max and not 0 to max values 
+  return Math.floor(Math.random() * (max - min) + min);
 };
 
 const coolnessGauge = (numOfFridges) => {
