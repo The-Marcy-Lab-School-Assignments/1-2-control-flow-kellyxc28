@@ -36,7 +36,15 @@ const measureRainSwitch = (inches) => {
     }
 };
 
-const rounderSwitch = () => {
+const rounderSwitch = (float, roundingSetting) => {
+    switch (roundingSetting) {
+        case 'up': 
+          return Math.ceil(float);
+        case 'down': 
+          return Math.floor(float);
+        case 'honest': 
+          return Math.round(float);
+    }
 };
 
 module.exports = {
