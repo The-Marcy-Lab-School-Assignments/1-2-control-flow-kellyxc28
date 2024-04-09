@@ -1,3 +1,10 @@
+/** FEEDBACK: I love that you are pushing yourself to try new techniques adn still crushing it! To make this switch even better you could have also done multiple cases together rather than rewriting the console.logs!
+ * It could look something like this: 
+ * case 2: 
+ * case 3: 
+ *  console.log('average');
+ *  break;
+ */
 const measureRainSwitch = (inches) => {
     switch (inches) {
       case 0:

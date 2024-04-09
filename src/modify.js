@@ -1,3 +1,4 @@
+/** FEEDBACK: Perfect! Not sure if we can return a console.log but it seems to work here. I do want to note that because we have our guard clause, we no longer need the else statement! */
 const wildlyBiasedReview = (location) => {
   if (location !== 'NYC') {
     return console.log('Yea that place is cool I guess');

@@ -21,7 +21,7 @@ const funkoPopAddictionLevel = (numOfFunkoPops) => {
     console.log('You need an intervention!!!');
   }
 };
-
+/** FEEDBACK: Great job! */
 const getWeatherReport = (temperature) => {
   let weatherReport;
   if (temperature > 90) {
@@ -40,7 +40,7 @@ const getWeatherReport = (temperature) => {
   console.log("And that's your report!");
   return weatherReport;
 };
-
+/** FEEDBACK: Perfect, love that you have two solutions, in the future, make sure that you label what the commented out code is so that it looks like documentation rather than commented out code! */
 const returnPositiveNegativeZero = (num) => {
   // if (num === 0) return 'Zero';
   // return (num < 1) ? 'Negative' : 'Positive';

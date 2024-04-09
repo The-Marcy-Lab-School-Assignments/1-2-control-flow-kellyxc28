@@ -15,7 +15,7 @@ const measureRain = (inches) => {
     console.log('flood');
   }
 };
-
+/** FEEDBACK: For snake, we do not need to check the age since regardless, it makes the same noise! */
 const happyBirthdayPet = (breed, age) => {
     if (breed === 'snake' && age >= 0) {
       console.log('Hiss hiss!');
@@ -39,7 +39,7 @@ const happyBirthdayPet = (breed, age) => {
       console.log('Happy birthday!');
     }
 };
-
+/** FEEDBACK: Great use of the escapes! */
 const funTypes = (jsType) => {
     if (typeof jsType === 'string') {
         console.log('That\'s just some text.');
@@ -77,6 +77,7 @@ const funTypes = (jsType) => {
 // funTypes([1, 2, 3]);  // Output: I order you to be indexed.
 // funTypes(NaN);        // Output: Well, now you're just showing off.
 
+/** FEEDBACK: Make sure to keep spacing consistent, you have a double space inside of the condition code blocks.  */
 const rounder = (float, roundingSetting) => {
     if (roundingSetting === 'up') {
         return Math.ceil(float);
@@ -111,3 +112,5 @@ module.exports = {
   rounder,
   fizzBuzzish,
 };
+
+/** FEEDBACK: GREAT JOB! Overall, you did great :)  */
