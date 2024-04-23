@@ -105,6 +105,7 @@ const fizzBuzzish = (num) => {
   }
 };
 
+// named exports 
 module.exports = {
   measureRain,
   happyBirthdayPet,

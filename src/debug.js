@@ -54,6 +54,7 @@ const returnPositiveNegativeZero = (num) => {
   return 'Negative';
 };
 
+// named exports 
 module.exports = {
   getRandomIntInRange,
   coolnessGauge,

@@ -54,6 +54,7 @@ const rounderSwitch = (float, roundingSetting) => {
     }
 };
 
+// named exports 
 module.exports = {
   measureRainSwitch,
   rounderSwitch,
