@@ -17,54 +17,54 @@ const measureRain = (inches) => {
 };
 /** FEEDBACK: For snake, we do not need to check the age since regardless, it makes the same noise! */
 const happyBirthdayPet = (breed, age) => {
-    if (breed === 'snake' && age >= 0) {
-      console.log('Hiss hiss!');
-    }
-    else if (breed === 'cat' && age < 5) {
-      console.log('Mew mew!');
-    }
-    else if (breed === 'cat' && age >= 5) {
-      console.log('Meow meow!');
-    }
-    else if (breed === 'dog' && age < 5) {
-      console.log('Arf arf!');
-    }
-    else if (breed === 'dog' && age >= 5 && age < 10) {
-      console.log('Woof woof!');
-    }
-    else if (breed === 'dog' && age >= 10) {
-      console.log('Boof!');
-    }
-    else {
-      console.log('Happy birthday!');
-    }
+  if (breed === 'snake' && age >= 0) {
+    console.log('Hiss hiss!');
+  }
+  else if (breed === 'cat' && age < 5) {
+    console.log('Mew mew!');
+  }
+  else if (breed === 'cat' && age >= 5) {
+    console.log('Meow meow!');
+  }
+  else if (breed === 'dog' && age < 5) {
+    console.log('Arf arf!');
+  }
+  else if (breed === 'dog' && age >= 5 && age < 10) {
+    console.log('Woof woof!');
+  }
+  else if (breed === 'dog' && age >= 10) {
+    console.log('Boof!');
+  }
+  else {
+    console.log('Happy birthday!');
+  }
 };
 /** FEEDBACK: Great use of the escapes! */
 const funTypes = (jsType) => {
-    if (typeof jsType === 'string') {
-        console.log('That\'s just some text.');
-    }
-    else if (Number.isNaN(jsType)) {              // special case: under number 
-      console.log('Well, now you\'re just showing off.');
-    }
-    else if (typeof jsType === 'number') {
-      console.log('That\'s a good number.');
-    }
-    else if (typeof jsType === 'boolean') {
-      console.log('To bool, or not to bool?');
-    }
-    else if (typeof jsType === 'undefined') {
-      console.log('Nothing, but I didn\'t set that.');
-    }
-    else if (jsType === null) {                  // special case: no ' ' needed, under object
-      console.log('Nothing, and I did set that.');
-    }
-    else if (Array.isArray(jsType)) {           // special case: under object 
-      console.log('I order you to be indexed.');
-    }
-    else if (typeof jsType === 'object') {      // special case: under object   
-      console.log('Anybody got the key?');
-    }
+  if (typeof jsType === 'string') {
+    console.log('That\'s just some text.');
+  }
+  else if (Number.isNaN(jsType)) {              // special case: under number 
+    console.log('Well, now you\'re just showing off.');
+  }
+  else if (typeof jsType === 'number') {
+    console.log('That\'s a good number.');
+  }
+  else if (typeof jsType === 'boolean') {
+    console.log('To bool, or not to bool?');
+  }
+  else if (typeof jsType === 'undefined') {
+    console.log('Nothing, but I didn\'t set that.');
+  }
+  else if (jsType === null) {                  // special case: no ' ' needed, under object
+    console.log('Nothing, and I did set that.');
+  }
+  else if (Array.isArray(jsType)) {           // special case: under object 
+    console.log('I order you to be indexed.');
+  }
+  else if (typeof jsType === 'object') {      // special case: under object   
+    console.log('Anybody got the key?');
+  }
 };
 
 // For Testing 
