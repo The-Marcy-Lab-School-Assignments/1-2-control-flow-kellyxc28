@@ -1,7 +1,7 @@
 /** FEEDBACK: I love that you are pushing yourself to try new techniques adn still crushing it! To make this switch even better you could have also done multiple cases together rather than rewriting the console.logs!
- * It could look something like this: 
- * case 2: 
- * case 3: 
+ * It could look something like this:
+ * case 2:
+ * case 3:
  *  console.log('average');
  *  break;
  */
@@ -18,7 +18,7 @@ const measureRainSwitch = (inches) => {
       break;
     case 3:
       console.log('average');
-      break;  
+      break;
     case 4:
       console.log('rainy');
       break;
@@ -27,16 +27,16 @@ const measureRainSwitch = (inches) => {
       break;
     case 6:
       console.log('flood');
-      break;  
+      break;
     case 7:
       console.log('flood');
-      break; 
+      break;
     case 8:
       console.log('flood');
-      break; 
+      break;
     case 9:
       console.log('flood');
-      break;   
+      break;
     case 10:
       console.log('flood');
       break;
@@ -45,16 +45,16 @@ const measureRainSwitch = (inches) => {
 
 const rounderSwitch = (float, roundingSetting) => {
   switch (roundingSetting) {
-    case 'up': 
+    case 'up':
       return Math.ceil(float);
-    case 'down': 
+    case 'down':
       return Math.floor(float);
-    case 'honest': 
+    case 'honest':
       return Math.round(float);
   }
 };
 
-// named exports 
+// named exports
 module.exports = {
   measureRainSwitch,
   rounderSwitch,
